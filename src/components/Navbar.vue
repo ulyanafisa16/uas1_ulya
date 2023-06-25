@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="#">Originote</a>
       <button
@@ -24,14 +24,14 @@
           </li>
         </ul>
 
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <router-link class="nav-link" to="/keranjang">
               Keranjang
-              <b-icon-bag></b-icon-bag>
-              <span class="badge badge-success ml-2">0</span>
+              <b-icon-bag></b-icon-bag>           
+              <span class="badge badge-success ml-2">0</span>         
             </router-link>
-          </li>
+            </li>
         </ul>
       </div>
     </div>
@@ -45,7 +45,5 @@ export default {
 </script>
 
 <style>
-.collapse navbar-collapse{
-  background-color: rgb(104, 169, 169);
-}
+
 </style>
