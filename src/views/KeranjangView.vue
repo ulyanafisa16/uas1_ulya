@@ -22,7 +22,7 @@
                 @keyup="searchSkin" />
                 <div class="input-grup-preopend">
                   <span class="input-grup-text" id="basic-addon1">
-                    <b-ico-search></b-ico-search>
+                    <b-icon-search></b-icon-search>
                   </span>
                 </div>
               </div>
