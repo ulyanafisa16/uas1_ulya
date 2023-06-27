@@ -22,15 +22,21 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/skin">Skincare</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/">About</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/keranjang">Keranjang</router-link>
+              
+            </li>
         </ul>
 
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link class="nav-link" to="/keranjang">
-              Keranjang
-              <b-icon-bag></b-icon-bag>           
+            <!-- <router-link class="nav-link" to="/keranjang">
+              <b-icon-bag-fill></b-icon-bag-fill>           
               <span class="badge badge-success ml-2">0</span>         
-            </router-link>
+            </router-link> -->
             </li>
         </ul>
       </div>

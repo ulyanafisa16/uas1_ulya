@@ -20,8 +20,8 @@
       <!-- <div class="col-md-6">
         <img src="../assets/image/gambar13.jpg" width="80%" />
       </div> -->
-
-<div class="col-6">
+<div class="shadow p-3 mb-5 bg-body rounded  col-6">
+<div >
       <b-carousel
     id="carousel-fade"
     style="text-shadow: 0px 0px 2px #000"
@@ -45,12 +45,14 @@
     ></b-carousel-slide>
   </b-carousel>
 </div>
+</div>
     </div>
     </div>
 
+
 <div class="card-grup">
   <b-card-group deck>
-    <b-card title="Title" img-src="../assets/image/gambar16.jpg" img-alt="Image" img-top>
+    <b-card title="Title" img-src="../assets/image/gambar6.jpg" img-alt="Image" img-top>
     <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
         This content is a little bit longer.
@@ -60,7 +62,7 @@
       </template>
     </b-card>
 
-    <b-card title="Title" img-src="../assets/image/gambar4.jpg" img-alt="Image" img-top>
+    <b-card title="Title" img-src="../assets/image/gambar7.jpg" img-alt="Image" img-top>
       <b-card-text>
         This card has supporting text below as a natural lead-in to additional content.
       </b-card-text>
@@ -69,7 +71,7 @@
       </template>
     </b-card>
 
-    <b-card title="Title" img-src="../assets/image/gambar17.jpg" img-alt="Image" img-top>
+    <b-card title="Title" img-src="../assets/image/gambar8.jpg" img-alt="Image" img-top>
       <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
         This card has even longer content than the first to show that equal height action.

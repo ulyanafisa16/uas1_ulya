@@ -12,6 +12,7 @@
 .atas{
     text-align: center;
     font-weight: 80px;
+    
 }
 .card-grup{
     width: 30;
@@ -26,3 +27,44 @@
 .col-12{
     width: min-content;
 }
+.bg-satu{
+background-color: rgb(197, 103, 141);
+  background-size: cover; /* Atur ukuran gambar agar selalu menutupi elemen */
+  background-position: center; /* Atur posisi gambar menjadi di tengah */
+  background-repeat: no-repeat
+}
+
+.bg-dua{
+    background-color: rgb(133, 177, 235);
+    background-size: cover; /* Atur ukuran gambar agar selalu menutupi elemen */
+    background-position: center; /* Atur posisi gambar menjadi di tengah */
+    background-repeat: no-repeat 
+}
+
+.gambar {
+    position: relative;
+    display: inline-block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .overlay:hover {
+    opacity: 0.8;
+  }
+  
+  b-img {
+    max-width: 100%;
+    height: auto;
+  }

@@ -3,14 +3,20 @@
  <div class="atas">
       <Navbar />
       <h2>Daftar Produk</h2>
-<div>
-  
+      
+      <div>
+      <input type="text" v-model="searchTerm" placeholder="Masukkan kata kunci...">
+      <button @click="search"><b-icon-search></b-icon-search></button>
+    </div>
+    <Pencarian @perform-search="performSearch"></Pencarian>
 
-  <b-container fluid class="p-5 bg-light">
+
+<div>
+  <b-container fluid class="p-5 bg-satu">
   <b-row>
     <b-col>
-      <b-img thumbnail fluid :src="require ('@/assets/image/gambar7.jpg')" alt="Image 1"></b-img>
-      <p>Serum</p>
+      <b-img thumbnail fluid :src="require ('@/assets/image/gambar7.jpg')" alt="Image 1" ></b-img>
+      <h3>serum</h3>
     </b-col>
     <b-col>
       <b-img thumbnail fluid :src="require ('@/assets/image/gambar12.jpg')" alt="Image 2"></b-img>
@@ -20,13 +26,10 @@
     </b-col>
   </b-row>
 </b-container>
-  
+</div>
 
-    </div>
-
-    <div>
-
-<b-container fluid class="p-5 bg-light">
+ <div>
+<b-container fluid class="p-5 bg-dua">
 <b-row>
   <b-col>
     <b-img thumbnail fluid :src="require ('@/assets/image/gambar15.jpg')" alt="Image 1"></b-img>
@@ -40,11 +43,8 @@
   </b-col>
 </b-row>
 </b-container>
-
-
   </div>
-  </div>
-      
+</div>    
 
 </template>
   
@@ -52,13 +52,30 @@
   // @ is an alias to /src
   import Navbar from '@/components/Navbar.vue'
   
+  
   export default {
     name: 'SkinView',
     components: {
-      Navbar,
-      
+      Navbar,  
     },
+    data() {
+    return {
+       // Menyimpan kata kunci pencarian
+      showText: null
+    };
+  },
+  methods: {
+      toggleText(index) {
+        if(this.showText == index) { 
+      this.showText = null;
+    } else {
+      this.showText = index;
+    }
   }
+  }
+
+  };
+
   </script>
 
   <style >
