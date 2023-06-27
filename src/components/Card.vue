@@ -6,7 +6,7 @@
       <p class="card-text"> Harga : Rp. {{ product.harga }}</p>
       <a href="#" class="btn btn-primary"><b-icon-cart></b-icon-cart>Pesan</a>
     </div>
-
+    <Card />
   </div>
   
     
