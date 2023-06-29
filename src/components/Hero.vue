@@ -52,7 +52,10 @@
 
 <div class="card-grup">
   <b-card-group deck>
-    <b-card title="Title" img-src="../assets/image/gambar6.jpg" img-alt="Image" img-top>
+    <b-card >
+      <div class="video-wrapper">
+      <video src="../assets/image/vid1.mp4" ></video>
+    </div>
     <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
         This content is a little bit longer.
