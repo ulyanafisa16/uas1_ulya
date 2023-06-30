@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import SkinView from '../views/SkinView.vue'
 import KeranjangView from '../views/KeranjangView'
 import AboutView from '../views/AboutView'
+import PesanView from '../views/PesanView'
 
 Vue.use(VueRouter)
 
@@ -31,6 +32,13 @@ const routes = [
     name: 'about',
     component: AboutView
   },
+
+  {
+    path: '/keranjang/:id',
+    name: 'pesan',
+    component: PesanView
+  },
+
 
   {
     path: '/about',
