@@ -34,7 +34,6 @@
         >
           <Card :product="product" />
         </div>
-        <Card />
       </div>
     </div>
   </div>

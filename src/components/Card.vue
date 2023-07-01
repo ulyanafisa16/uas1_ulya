@@ -1,4 +1,5 @@
 <template>
+  
   <div class="card">
     <img :src=" '/assets/image/' + product.gambar" class="card-img-top" alt="..." />
     <div class="card-body">
@@ -6,7 +7,7 @@
       <p class="card-text"> Harga : Rp. {{ product.harga }}</p>
       <router-link class="btn btn-primary" :to="'/keranjang/' + product.id"><b-icon-cart></b-icon-cart>Pesan</router-link>
     </div>
-    <Card />
+    
   </div>
   
     
