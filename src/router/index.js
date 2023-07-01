@@ -6,6 +6,7 @@ import KeranjangView from '../views/KeranjangView'
 import AboutView from '../views/AboutView'
 import PesanView from '../views/PesanView'
 import TroliView from '../views/TroliView'
+import SuksesView from '../views/SuksesView'
 
 Vue.use(VueRouter)
 
@@ -44,6 +45,12 @@ const routes = [
     path: '/troli',
     name: 'troli',
     component: TroliView
+  },
+
+  {
+    path: '/sukses',
+    name: 'sukses',
+    component: SuksesView
   },
 
 
