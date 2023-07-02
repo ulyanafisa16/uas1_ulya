@@ -1,11 +1,22 @@
 <template>
+  <div class="container">
     <div class="sukses">
   <Navbar />
   <div class="mt-4">
-    <div class="text-align-center">
+    <div class="align-item-center text-center">
         <h2>Sukses</h2>
     </div>
   </div>
+  <div class="text-center">
+  <b-spinner label="Spinning"></b-spinner>
+  <b-spinner type="grow" label="Spinning"></b-spinner>
+  <b-spinner variant="primary" label="Spinning"></b-spinner>
+  <b-spinner variant="primary" type="grow" label="Spinning"></b-spinner>
+  <b-spinner variant="success" label="Spinning"></b-spinner>
+  <b-spinner variant="success" type="grow" label="Spinning"></b-spinner>
+</div>
+
+</div>
 </div>
 </template>
 
