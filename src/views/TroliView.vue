@@ -25,7 +25,7 @@
                 <th>{{ index + 1 }}</th>
                 <td>
                   <img
-                    :src="'../assets/image/' + keranjang.products.gambar"
+                    :src="'../assets/image/' + keranjang.products.gambar[0]"
                     class="img-fluid"
                     width="250"
                   />

@@ -2,9 +2,9 @@
   <div class="pesan">
     <Navbar />
     <div class="mt-5">
-      <div class="row">
+      <div class="row mb-4">
         <div class="col-md-6">
-          <img :src="'/assets/image/' + product.gambar" class="img-fluid" />
+          <img :src="'/assets/image/' + product.gambar[0]" class="img-fluid" />
         </div>
         <div class="col-md-6">
           <div class="mt-5"></div>
@@ -21,7 +21,7 @@
                 v-model="pesan.jumlah_pesanan"
               />
             </div>
-
+            
             <div class="mt-4">
               <button type="submit" class="btn btn-success" @click="pesanan">
                 <b-icon-cart></b-icon-cart>Pesan
@@ -36,11 +36,13 @@
 
 <script>
 import Navbar from "@/components/Navbar.vue";
+
 import axios from "axios";
 export default {
   name: "PesanView",
   components: {
     Navbar,
+    
   },
   data() {
     return {
