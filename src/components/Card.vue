@@ -2,7 +2,10 @@
   
   <div>
     <div class="card">
-      
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li v-for="(image, index) in product.gambar" :key="index" :data-target="'#carouselExampleIndicators'" :data-slide-to="index" :class="{ active: index === 0 }"></li>
+        </ol>
         <div class="carousel-inner">
           <div v-for="(image, index) in product.gambar" :key="index" class="carousel-item" :class="{ active: index === 0 }">
             <img :src="'/assets/image/' + image" class="d-block w-100" :alt="'Slide ' + (index + 1)">
@@ -25,6 +28,7 @@
           Pesan
         </router-link>
       </div>
+    </div>
     </div>
   
 
