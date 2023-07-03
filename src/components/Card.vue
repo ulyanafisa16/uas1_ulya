@@ -40,6 +40,7 @@
 </template>
 
 <script>
+import BootstrapVue from 'bootstrap-vue';
 export default {
  name: "CardView",
  props: ['product'],
@@ -47,7 +48,7 @@ export default {
 
  mounted() {
     document.addEventListener('DOMContentLoaded', function() {
-      new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'));
+      new BootstrapVue.Carousel(document.getElementById('carouselExampleIndicators'));
     });
   }
 

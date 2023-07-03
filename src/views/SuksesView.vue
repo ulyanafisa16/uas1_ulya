@@ -16,6 +16,10 @@
   <b-spinner variant="success" type="grow" label="Spinning"></b-spinner>
 </div>
 
+<div class="gambar">
+  <img src="../assets/image/gambar13-rb.png"/>
+</div>
+
 </div>
 </div>
 </template>

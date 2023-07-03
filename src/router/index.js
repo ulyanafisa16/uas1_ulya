@@ -30,8 +30,8 @@ const routes = [
   },
 
   {
-    path: '/about',
-    name: 'about',
+    path: '/tentang',
+    name: 'tentang',
     component: AboutView
   },
 
