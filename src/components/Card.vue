@@ -42,8 +42,15 @@
 <script>
 export default {
  name: "CardView",
- props: ['product']
- 
+ props: ['product'],
+
+
+ mounted() {
+    document.addEventListener('DOMContentLoaded', function() {
+      new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'));
+    });
+  }
+
 };
 </script>
 
