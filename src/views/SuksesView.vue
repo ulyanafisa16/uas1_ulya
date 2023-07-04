@@ -15,10 +15,13 @@
   <b-spinner variant="success" label="Spinning"></b-spinner>
   <b-spinner variant="success" type="grow" label="Spinning"></b-spinner>
 </div>
-
-<div class="gambar">
-  <img src="../assets/image/gambar13-rb.png"/>
+<hr>
+<div class="text-center">
+  <h3>Terimakasih</h3>
+  <h2>Semoga Senang Untuk Belanja Lagi</h2>
 </div>
+
+
 
 </div>
 </div>

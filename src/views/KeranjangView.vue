@@ -4,7 +4,9 @@
       <div class="row mt-4">
         <div class="col">
           <Navbar />
+          <div class="text-center">
           <h2><strong>Daftar</strong> menu</h2>
+        </div>
         </div>
       </div>
 

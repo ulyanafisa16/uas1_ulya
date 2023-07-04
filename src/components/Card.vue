@@ -2,7 +2,7 @@
   
   <div>
     <div class="card">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="'carouselExampleIndicators'" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li v-for="(image, index) in product.gambar" :key="index" :data-target="'#carouselExampleIndicators'" :data-slide-to="index" :class="{ active: index === 0 }"></li>
         </ol>
@@ -24,8 +24,7 @@
         <h5 class="card-title">{{ product.nama }}</h5>
         <p class="card-text">Harga: Rp. {{ product.harga }}</p>
         <router-link class="btn btn-primary" :to="'/keranjang/' + product.id">
-          <b-icon-cart></b-icon-cart>
-          Pesan
+          view more...
         </router-link>
       </div>
     </div>
