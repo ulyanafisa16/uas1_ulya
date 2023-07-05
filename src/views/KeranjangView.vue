@@ -29,7 +29,7 @@
         </div>
       </div>
       <div>
-  <b-button variant="outline-primary">Acne Series</b-button>
+  <b-button variant="outline-primary" @click="searchByCategory('Acne')">Acne Series</b-button>
   <b-button variant="outline-primary">Glowing Kit</b-button>
   <b-button variant="outline-primary">Barrier Kit</b-button>
   <b-button variant="outline-primary">Button</b-button>
@@ -75,6 +75,12 @@ export default {
         .then((response) => this.setProducts(response.data))
         .catch((error) => console.log(error));
     },
+    searchByCategory(category) {
+      axios
+      .get("http://localhost:3000/products?q=" + category)
+        .then((response) => this.setProducts(response.data))
+        .catch((error) => console.log(error));
+    }
   },
   mounted() {
     axios
