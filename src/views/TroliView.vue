@@ -36,7 +36,7 @@
                 <td>
                   Rp. {{ keranjang.products.harga * keranjang.jumlah_pesanan }}
                 </td>
-                <td><b-icon-trash @click="hapusKeranjang"></b-icon-trash></td>
+                <td><b-icon-trash @click="hapusKeranjang(keranjang.id)"></b-icon-trash></td>
               </tr>
               <tr>
                 <td colspan="5" align="right">
