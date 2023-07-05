@@ -1,7 +1,7 @@
 <template>
 <div>
   <footer class="mt-5 mb-5">
-    <hr>
+    <hr/>
     <div class="container">
         <div class="row">
             <div class="col text-left">

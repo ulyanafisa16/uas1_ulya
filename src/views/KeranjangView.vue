@@ -28,6 +28,12 @@
           </div>
         </div>
       </div>
+      <div>
+  <b-button variant="outline-primary">Acne Series</b-button>
+  <b-button variant="outline-primary">Glowing Kit</b-button>
+  <b-button variant="outline-primary">Barrier Kit</b-button>
+  <b-button variant="outline-primary">Button</b-button>
+</div>
       <div class="row mb-4">
         <div
           class="col-md-4 mt-4"
