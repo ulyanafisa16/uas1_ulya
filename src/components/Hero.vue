@@ -54,7 +54,7 @@
   <b-card-group deck>
     <b-card >
       <div class="video-wrapper">
-      <video src="../assets/image/vid1.mp4" ></video>
+      <video src="../assets/image/vid1.mp4" autoplay-control ></video>
     </div>
     <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
