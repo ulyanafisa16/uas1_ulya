@@ -17,7 +17,7 @@
             <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/keranjang">Keranjang</router-link>
+            <router-link class="nav-link" to="/keranjang">Eksplore</router-link>
               
             </li>
         </b-navbar-nav>
@@ -43,6 +43,9 @@
       </b-collapse>
     </b-navbar>
   </div>
+  
+
+
   <!-- <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="#">Originote</a>

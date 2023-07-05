@@ -45,6 +45,7 @@
       <div class="mt-5">
         <div class="row mb-4">
           <div class="col-md-6">
+            <div class="flex-1"></div>
             <div class="nama">
               <div class="card">
                 <img
@@ -55,23 +56,33 @@
             </div>
           </div>
           <div class="cardket">
-            
             <div class="mt-5">
-            <div class="card">
-              <div class="col-md-6"> 
-                
-                   
-                    <h2>Keterangan</h2>
-                    <hr />
-                    <h3>{{ product.keterangan }}</h3>
-                  </div>
+             
+                <div class="col-md-6"></div>
+                  <div class="text-center">
+                  <h2>Deskripsi Produk</h2>
+                </div>
+                  <hr>
+                  <p>{{ product.keterangan[0] }}</p>
+                  <br>
+                  <p>{{ product.keterangan[1] }}</p>
+                  <br>
+                  <h2>Manfaat</h2>
+                  <p>{{ product.keterangan[2] }}</p>
+                  <br>
+                  <h2>Cara Penggunaan</h2>
+                  <p>{{ product.keterangan[3] }}</p>
+                  <br>
+                  <h2>Ingredients</h2>
+                  <p>{{ product.keterangan[4] }}</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
+    
+  
 </template>
 
 <script>

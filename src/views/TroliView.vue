@@ -105,13 +105,12 @@ export default {
     hapusKeranjang(id) {
       axios
         .delete("http://localhost:3000/keranjangs/" + id)
-        .then(() => {})
+        .then(() => {
+          this.keranjangs = this.keranjangs.filter(
+            (keranjang) => keranjang.id!==id
+          );
+        })
         .catch((error) => console.log(error));
-
-        axios
-      .get("http://localhost:3000/keranjangs")
-      .then((response) => this.setKeranjangs(response.data))
-      .catch((error) => console.log(error));
     },
     chekout(){
         if(this.pesan.nama && this.pesan.alamat){
@@ -120,7 +119,7 @@ export default {
             .post("http://localhost:3000/pesanans", this.pesan)
             .then(()=>{
 
-                //hapus kersnjang
+                //hapus keranjang
                 this.keranjangs.map(function (item){
                     return axios
                     .delete("http://localhost:3000/keranjangs/" + item.id)

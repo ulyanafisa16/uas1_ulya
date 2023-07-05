@@ -84,10 +84,12 @@ background-color: rgb(197, 103, 141);
   .nama {
     height: 100%;
     width: 80%;
+    justify-content: center;
+    align-items: center;
   }
   .cardket{
-    justify-content: right;
-    text-align: right;
+    flex: 1;
+    text-align: left;
     height: 100%;
     width: 90%;
   }
