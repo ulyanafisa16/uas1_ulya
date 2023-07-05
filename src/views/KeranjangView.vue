@@ -29,10 +29,10 @@
         </div>
       </div>
       <div>
-  <b-button variant="outline-primary" @click="searchByCategory('Acne')">Acne Series</b-button>
-  <b-button variant="outline-primary">Glowing Kit</b-button>
-  <b-button variant="outline-primary">Barrier Kit</b-button>
-  <b-button variant="outline-primary">Button</b-button>
+  <b-button  variant="secondary" @click="searchByKategory('product')" class="mr-3">All Product</b-button>
+  <b-button  @click="searchByCategory('Acne')" class="mr-3">Acne Series</b-button>
+  <b-button  @click="searchCategory('Glow')" class="mr-3">Glowing Kit</b-button>
+  <b-button  class="mr-3">Button</b-button>
 </div>
       <div class="row mb-4">
         <div
@@ -75,9 +75,21 @@ export default {
         .then((response) => this.setProducts(response.data))
         .catch((error) => console.log(error));
     },
-    searchByCategory(category) {
+    searchByKategory() {
       axios
-      .get("http://localhost:3000/products?q=" + category)
+        .get("http://localhost:3000/products?q=")
+        .then((response) => this.setProducts(response.data))
+        .catch((error) => console.log(error));
+    },
+    searchByCategory() {
+      axios
+        .get("http://localhost:3000/Acne?q=")
+        .then((response) => this.setProducts(response.data))
+        .catch((error) => console.log(error));
+    },
+    searchCategory() {
+      axios
+        .get("http://localhost:3000/Glow?q=")
         .then((response) => this.setProducts(response.data))
         .catch((error) => console.log(error));
     }

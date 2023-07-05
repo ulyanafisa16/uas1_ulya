@@ -94,5 +94,16 @@ background-color: rgb(197, 103, 141);
     width: 90%;
   }
 
+  .mr-3{
+  background-color: #5e7bcb; /* Warna latar belakang */
+  color: #ffffff;
+  
+  }
+
+  .gambar {
+    width: 100%; /* Ubah ukuran lebar gambar sesuai kebutuhan */
+    height: 40%; /* Biarkan tinggi gambar mengikuti aspek rasio */
+    
+  }
   
   
