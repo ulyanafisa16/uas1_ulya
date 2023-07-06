@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-left">
-                2023 Copyright |Ulya Nafisa
+              Copyright &copy; 2023 by Ulyanaf | All Rights Reserved.
             </div>
         </div>
     </div>
