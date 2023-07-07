@@ -62,7 +62,7 @@
                           <strong class="skin">Skincare Menu, </strong>
                           <h1>in your gadget</h1>
                         </h2>
-                        <p>Ayo segera Pilih dan Check Out</p>
+                        <p>Remember Your Skin have to Health</p>
                       </div>
                     </div>
                   </div>
