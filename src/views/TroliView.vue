@@ -12,11 +12,11 @@
             <thead>
               <tr>
                 <th scope="col">No</th>
-                <th scope="col">Produc</th>
-                <th scope="col">Nama</th>
-                <th scope="col">Jumlah</th>
-                <th scope="col">Harga</th>
-                <th scope="col">Total Harga</th>
+                <th scope="col">Product</th>
+                <th scope="col">Name</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total Price</th>
                 <th scope="col">Delete</th>
               </tr>
             </thead>
@@ -40,7 +40,7 @@
               </tr>
               <tr>
                 <td colspan="5" align="right">
-                  <strong>Total Harga : </strong>
+                  <strong>Grand Total : </strong>
                 </td>
                 <td>
                   <strong>Rp. {{ totalHarga }}</strong>
@@ -64,7 +64,8 @@
               />
             </div>
             <div class="form-grup">
-              <label for="alamat">Alamat : </label>
+              <div class="mt-1"></div>
+              <label for="alamat">Address : </label>
               <input
                 type="text"
                 class="form-control"
@@ -74,7 +75,7 @@
 
             <div class="mt-4">
               <button type="submit" class="btn btn-success" @click="chekout">
-                <b-icon-cart></b-icon-cart>Pesan
+                <b-icon-cart></b-icon-cart>Chek Out
               </button>
             </div>
           </form>

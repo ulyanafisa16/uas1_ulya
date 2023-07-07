@@ -38,14 +38,32 @@
             <div class="mt-5">
               <h2>ini adalah</h2>
               <br />
-              <div class="col-md-6">
-                <div class="mt-5">
-                  <div class="flex-1"></div>
-                  <div class="nama">
-                    <div class="card">
-                      <video
-                        src="../assets/image/vid3.mp4"
-                        class="img-fluid" autoplay-control></video>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mt-5">
+                    <div class="flex-1"></div>
+                    <div class="nama">
+                      <div class="card">
+                        <video
+                          src="../assets/image/vid3.mp4"
+                          class="img-fluid"
+                          autoplay-control
+                        ></video>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="flex-1">
+                    <div class="mt-5"></div>
+                    <div class="d-flex h-100 align-self-right">
+                      <div class="justify-content-right align-self-center">
+                        <h2>
+                          <strong class="skin">Skincare Menu, </strong>
+                          <h1>in your gadget</h1>
+                        </h2>
+                        <p>Ayo segera Pilih dan Check Out</p>
+                      </div>
                     </div>
                   </div>
                 </div>

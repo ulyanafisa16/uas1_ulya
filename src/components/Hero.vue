@@ -12,7 +12,7 @@
             </h2>
             <p>Ayo segera Pilih dan Check Out</p>
             <router-link to="/keranjang" class="btn btn-lg btn-success"
-              ><b-icon-arrow-right></b-icon-arrow-right>  Pesan</router-link
+              ><b-icon-arrow-right></b-icon-arrow-right>  Eksplore</router-link
             >
           </div>
         </div>
