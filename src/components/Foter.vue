@@ -14,7 +14,6 @@
                     <a href="https://instagram.com/theoriginote"><b-icon-instagram></b-icon-instagram></a>
                     <a href="https://twitter.com/theoriginote"><b-icon-twitter></b-icon-twitter></a>
                     <a href="https://facebook.com/theoriginote"><b-icon-facebook></b-icon-facebook></a>
-                    <a href="https://codingawalannew.blogspot.com"><b-icon-blockquote-right></b-icon-blockquote-right></a>
                  </div>
                  </div>
         </div>

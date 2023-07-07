@@ -36,7 +36,7 @@
             <br />
 
             <div class="mt-5">
-              <h2>ini adalah</h2>
+              <h2>About Us</h2>
               <br />
               <div class="row">
                 <div class="col-md-6">
@@ -59,7 +59,7 @@
                     <div class="d-flex h-100 align-self-right">
                       <div class="justify-content-right align-self-center">
                         <h2>
-                          <strong class="skin">Skincare Menu, </strong>
+                          <strong class="skin">Skincare Originote, </strong>
                           <h1>in your gadget</h1>
                         </h2>
                         <p>Remember Your Skin have to Health</p>

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 #app{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 .router-link-exact-active {
@@ -24,11 +26,11 @@
   color:#ffffff;
 }
 .btn-primary{
-  background-color: #cd8464;
+  background-color: rgb(101, 161, 207);
   border: none;
 }
 .btn-primary:hover{
-  background-color: #955e5e;
+  background-color:#DDA288;
   color: #ffffff;
 }
     
@@ -102,7 +104,7 @@
   }
 
   .mr-3{
-  background-color:#cd8464; /* Warna latar belakang */
+  background-color: rgb(101, 161, 207); /* Warna latar belakang */
   color: #ffffff;
   border: none;
   
