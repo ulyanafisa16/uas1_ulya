@@ -5,7 +5,7 @@
         <div class="col">
           <Navbar />
           <div class="text-center">
-          <h2><strong>Daftar</strong> menu</h2>
+          <h2><strong class="daftar">Daftar</strong> menu</h2>
         </div>
         </div>
       </div>

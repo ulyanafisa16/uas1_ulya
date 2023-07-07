@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import SkinView from '../views/SkinView.vue'
 import KeranjangView from '../views/KeranjangView'
 import AboutView from '../views/AboutView'
 import PesanView from '../views/PesanView'
@@ -17,11 +16,7 @@ const routes = [
     component: HomeView
   },
 
-  {
-    path: '/skin',
-    name: 'Skin',
-    component: SkinView
-  },
+  
 
   {
     path: '/keranjang',

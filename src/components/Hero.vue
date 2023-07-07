@@ -7,12 +7,12 @@
         <div class="d-flex h-100  align-self-right">
           <div class="justify-content-right align-self-center ">
             <h2>
-              <strong>Skincare Menu, </strong>
+              <strong class="skin">Skincare Menu, </strong>
               <h1>in your gadget</h1>
             </h2>
             <p>Ayo segera Pilih dan Check Out</p>
-            <router-link to="/skin" class="btn btn-lg btn-success"
-              ><b-icon-arrow-right></b-icon-arrow-right>Pesan</router-link
+            <router-link to="/keranjang" class="btn btn-lg btn-success"
+              ><b-icon-arrow-right></b-icon-arrow-right>  Pesan</router-link
             >
           </div>
         </div>

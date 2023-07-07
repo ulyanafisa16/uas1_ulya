@@ -12,12 +12,12 @@
             <thead>
               <tr>
                 <th scope="col">No</th>
-                <th scope="col">Foto</th>
+                <th scope="col">Produc</th>
                 <th scope="col">Nama</th>
                 <th scope="col">Jumlah</th>
                 <th scope="col">Harga</th>
                 <th scope="col">Total Harga</th>
-                <th scope="col">Hapus</th>
+                <th scope="col">Delete</th>
               </tr>
             </thead>
             <tbody>

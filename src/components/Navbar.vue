@@ -1,23 +1,20 @@
 <template>
   <div class="container">
-    <b-navbar toggleable="lg" type="light">
-      <b-navbar-brand href="#">Originote</b-navbar-brand>
+    <b-navbar toggleable="lg" >
+      <b-navbar-brand href="#" class="logo">Originote</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/skin">Skincare</router-link>
+          <li class="nav">
+            <router-link class="nav-link"  to="/">Home</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/keranjang">Eksplore</router-link>
+            <router-link class="nav-link" to="/keranjang">Product</router-link>
           </li>
         </b-navbar-nav>
 
@@ -38,10 +35,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-
   </div>
-  
-  
 </template>
 
 <script>
@@ -51,4 +45,6 @@ export default {
 </script>
 
 <style>
+
+
 </style>
