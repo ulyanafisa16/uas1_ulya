@@ -50,41 +50,8 @@
     </div>
 
 
-<div class="card-grup">
-  <b-card-group deck>
-    <b-card >
-      <div class="video-wrapper">
-      <video src="../assets/image/vid1.mp4" autoplay-control ></video>
-    </div>
-    <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This content is a little bit longer.
-      </b-card-text>
-      <template #footer>
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </template>
-    </b-card>
 
-    <b-card title="Title" img-src="../assets/image/gambar7.jpg" img-alt="Image" img-top>
-      <b-card-text>
-        This card has supporting text below as a natural lead-in to additional content.
-      </b-card-text>
-      <template #footer>
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </template>
-    </b-card>
-
-    <b-card title="Title" img-src="../assets/image/gambar8.jpg" img-alt="Image" img-top>
-      <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This card has even longer content than the first to show that equal height action.
-      </b-card-text>
-      <template #footer>
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </template>
-    </b-card>
-  </b-card-group>
-</div>
+   
 
 
     <!-- mobile -->
@@ -102,7 +69,7 @@
             </h2>
             <p>Ayo segera Pilih dan Check Out</p>
             <router-link to="/" class="btn btn-lg btn-success"
-              ><b-icon-arrow-right></b-icon-arrow-right>Pesan</router-link
+              ><b-icon-arrow-right></b-icon-arrow-right>Order</router-link
             >
           </div>
         </div>

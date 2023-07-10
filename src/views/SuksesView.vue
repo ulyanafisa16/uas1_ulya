@@ -4,7 +4,7 @@
   <Navbar />
   <div class="mt-4">
     <div class="align-item-center text-center">
-        <h2>Sukses</h2>
+        <h2>Succeed</h2>
     </div>
   </div>
   <div class="text-center">
@@ -17,8 +17,17 @@
 </div>
 <hr>
 <div class="text-center">
-  <h3>Terimakasih</h3>
+  <h3>Thank you</h3>
   <h2>Semoga Senang Untuk Belanja Lagi</h2>
+</div>
+<div class="mt-4">
+  <div class="align-item-center">
+    <div class="justify-content-center">
+      <div class="img-center">
+    <img src="../assets/image/sukses1.png">
+  </div>
+</div>
+</div>
 </div>
 
 

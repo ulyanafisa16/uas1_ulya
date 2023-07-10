@@ -35,10 +35,10 @@
             <h2>{{ product.nama }}</h2>
             <hr />
             <div class="mt-5"></div>
-            <h4>Harga: Rp {{ product.harga }}</h4>
+            <h4>Price: Rp {{ product.harga }}</h4>
             <form class="mt-1" v-on:submit.prevent>
               <div class="form-grup">
-                <label for="jumlah_pesanan">Jumlah Pesan</label>
+                <label for="jumlah_pesanan">Order Quantity</label>
                 <input
                   type="number"
                   class="form-control"
@@ -48,7 +48,7 @@
 
               <div class="mt-4">
                 <button type="submit" class="btn btn-success" @click="pesanan">
-                  <b-icon-cart></b-icon-cart>Pesan
+                  <b-icon-cart></b-icon-cart>   Order Now
                 </button>
               </div>
             </form>
@@ -75,17 +75,17 @@
              
                 <div class="col-md-6"></div>
                   <div class="text-center">
-                  <h2>Deskripsi Produk</h2>
+                  <h2>Product Description</h2>
                 </div>
                   <hr>
                   <p>{{ product.keterangan[0] }}</p>
                   <br>
                   <p>{{ product.keterangan[1] }}</p>
                   <br>
-                  <h2>Manfaat</h2>
+                  <h2>Benefit</h2>
                   <p>{{ product.keterangan[2] }}</p>
                   <br>
-                  <h2>Cara Penggunaan</h2>
+                  <h2>How to Use</h2>
                   <p>{{ product.keterangan[3] }}</p>
                   <br>
                   <h2>Ingredients</h2>
