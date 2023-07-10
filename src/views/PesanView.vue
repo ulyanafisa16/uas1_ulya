@@ -1,18 +1,33 @@
 <template>
   <div class="pesan">
     <Navbar />
+    <VueCarousel />
     <div class="container">
       <div class="mt-5">
         <div class="row mb-4">
           <div class="col-md-6">
             <div class="nama">
               <div class="card">
-                <img
-                  :src="'/assets/image/' + product.gambar[0]"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li v-for="(image, index) in product.gambar" :key="index" :data-target="'#carouselExampleIndicators'" :data-slide-to="index" :class="{ active: index === 0 }"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div v-for="(image, index) in product.gambar" :key="index" class="carousel-item" :class="{ active: index === 0 }">
+            <img :src="'/assets/image/' + image" class="d-block w-100" :alt="'Slide ' + (index + 1)">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        </div>
+          </div>
+          </div>
           </div>
 
           <div class="col-md-6">
@@ -87,13 +102,17 @@
 
 <script>
 import Navbar from "@/components/Navbar.vue";
+import VueCarousel from 'vue-carousel';
+import Bootstrap from "bootstrap-vue";
 
 import axios from "axios";
 export default {
   name: "PesanView",
   components: {
     Navbar,
-  },
+    VueCarousel
+
+},
   data() {
     return {
       product: {},
@@ -121,7 +140,12 @@ export default {
       .get("http://localhost:3000/products/" + this.$route.params.id)
       .then((response) => this.setProduct(response.data))
       .catch((error) => console.log(error));
+  
+ 
+    // Inisialisasi carousel Bootstrap setelah komponen dimuat
+     new Bootstrap.Carousel(document.getElementById('carouselExampleIndicators'));
   },
+  
 };
 </script>
 
