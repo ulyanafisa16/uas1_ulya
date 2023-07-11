@@ -32,7 +32,7 @@
   <b-button  variant="secondary" @click="searchByKategory('product')" class="mr-3">All Product</b-button>
   <b-button  @click="searchByCategory('Acne')" class="mr-3">Acne Series</b-button>
   <b-button  @click="searchCategory('Glow')" class="mr-3">Glowing Kit</b-button>
-  <b-button  class="mr-3">Button</b-button>
+  <b-button  @click="searchCategori('Bundle')"  class="mr-3">Bundle Kit</b-button>
 </div>
       <div class="row mb-4">
         <div
@@ -90,6 +90,12 @@ export default {
     searchCategory() {
       axios
         .get("http://localhost:3000/Glow?q=")
+        .then((response) => this.setProducts(response.data))
+        .catch((error) => console.log(error));
+    },
+    searchCategori() {
+      axios
+        .get("http://localhost:3000/Bundle?q=")
         .then((response) => this.setProducts(response.data))
         .catch((error) => console.log(error));
     }

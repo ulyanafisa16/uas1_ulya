@@ -64,7 +64,7 @@
         <div class="d-flex h-100">
           <div class="justify-content-center align-self-center">
             <h2>
-              <strong>Skincare Menu, </strong>
+              <strong>Choice Brand, </strong>
               <h1>in your gadget</h1>
             </h2>
             <p>Ayo segera Pilih dan Check Out</p>

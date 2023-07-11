@@ -6,49 +6,20 @@
         <div class="col">
           <div class="mt-5 text-center">
             <hr />
-            <h1>ORIGINOTE</h1>
+            <h1 class="depan">THE <span class="brand">ORIGINOTE</span></h1>
             <hr />
-            <div class="gambar">
-              <b-carousel
-                id="carousel-fade"
-                style="text-shadow: 0px 0px 2px #000"
-                fade
-                indicators
-                class="mt-4"
-              >
-                <b-carousel-slide
-                  caption="First Slide"
-                  img-src="../assets/image/gambar16.jpg"
-                  class="carousel-image"
-                ></b-carousel-slide>
-                <b-carousel-slide
-                  caption="Second Slide"
-                  img-src="../assets/image/gambar4.jpg"
-                  class="carousel-image"
-                ></b-carousel-slide>
-                <b-carousel-slide
-                  caption="Third Slide"
-                  img-src="../assets/image/gambar17.jpg"
-                  class="carousel-image"
-                ></b-carousel-slide>
-              </b-carousel>
-            </div>
             <br />
-
             <div class="mt-5">
-              <h2>About Us</h2>
-              <br />
               <div class="row">
                 <div class="col-md-6">
                   <div class="mt-5">
                     <div class="flex-1"></div>
                     <div class="nama">
                       <div class="card">
-                        <video
-                          src="../assets/image/vid3.mp4"
+                        <img
+                          src="../assets/image/brand.jpg"
                           class="img-fluid"
-                          autoplay-control
-                        ></video>
+                        />
                       </div>
                     </div>
                   </div>
@@ -59,16 +30,35 @@
                     <div class="d-flex h-100 align-self-right">
                       <div class="justify-content-right align-self-center">
                         <h2>
-                          <strong class="skin">Skincare Originote, </strong>
-                          <h1>in your gadget</h1>
+                          <h1 class="skin">Perfect Your Beauty with</h1>
+                          <h3>
+                            <strong class="label">
+                              THE <span>ORIGINOTE</span></strong
+                            >
+                          </h3>
                         </h2>
-                        <p>Remember Your Skin have to Health</p>
+                        <p>Brand Choice, Top Awareness sales and Rating 2023</p>
+                        <p>BPOM certified</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <br/>
+
+          <div class="col-md-6">
+            <div class="flex">
+              <div class="justify-content-center">
+                <div class="align-item-center">
+                  <h3> You Can Get It</h3>
+                </div>
+                </div>
+              </div>
+            </div>
+          
+
+
           </div>
         </div>
       </div>

@@ -148,7 +148,19 @@
 }
 .skin{
   color: #955e5e;
+  font-size: 40px;
+}
+.label{
   font-size: 60px;
+  color: rgb(101, 161, 207);
+}
+.brand{
+  font-size: 60px;
+  color: rgb(101, 161, 207);
+}
+.depan{
+  font-size: 60px;
+  color: #955e5e;
 }
 
   
