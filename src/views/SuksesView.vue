@@ -24,7 +24,7 @@
   <div class="align-item-center">
     <div class="justify-content-center">
       <div class="img-center">
-    <img src="../assets/image/sukses1.png">
+    <img src="../assets/image/succes.png">
   </div>
 </div>
 </div>
