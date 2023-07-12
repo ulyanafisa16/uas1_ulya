@@ -45,20 +45,59 @@
                 </div>
               </div>
             </div>
-            <br/>
+            <br />
 
-          <div class="col-md-6">
-            <div class="flex">
-              <div class="justify-content-center">
-                <div class="align-item-center">
-                  <h3> You Can Get It</h3>
-                </div>
+            <div class="col-md-6">
+              <div class="flex">
+                <div class="justify-content-center">
+                  <div class="align-item-center">
+                    <h3>You Can Get It</h3>
+                    <br />
+                    <div class="col-md-6"></div>
+                    <div class="card">
+                      <div class="mb-2">
+                        <div class="flex-1"></div>
+                        <b-avatar
+                          src="https://placekitten.com/300/300"
+                          size="6rem"
+                        ></b-avatar>
+                        Heloo world ini rivew from me you can get it
+                        <br />
+                        <div>
+                          <b-form-rating
+                            v-model="value"
+                            variant="warning"
+                            class="mb-2"
+                          ></b-form-rating>
+                          <p class="mt-2">Value: {{ value }}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col-md-6"></div>
+                    <div class="card">
+                      <div class="mb-2">
+                        <div class="flex"></div>
+                        <b-avatar
+                          src="https://placekitten.com/300/300"
+                          size="6rem"
+                        ></b-avatar>
+                        Heloo world ini rivew from me you can get it
+                        <br />
+                        <div>
+                          <b-form-rating
+                            v-model="value"
+                            variant="warning"
+                            class="mb-2"
+                          ></b-form-rating>
+                          <p class="mt-2">Value: {{ value }}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          
-
-
           </div>
         </div>
       </div>
@@ -72,6 +111,11 @@ export default {
   name: "AboutView",
   components: {
     Navbar,
+  },
+  data() {
+    return {
+      value: 3,
+    };
   },
 };
 </script>

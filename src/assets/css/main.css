@@ -162,5 +162,15 @@
   font-size: 60px;
   color: #955e5e;
 }
+.banner .gambar img{
+  width: 40%;
+  height: 50vh;
+  background-color: #cd8464;
+  background-size: cover;
+  background-position: 60%;
+  border-radius: 10px;
+  position: fixed;
+  margin-top: 100px;
+}
 
   
