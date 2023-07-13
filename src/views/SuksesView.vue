@@ -22,10 +22,8 @@
 </div>
 <div class="mt-4">
   <div class="align-item-center">
-    <div class="justify-content-center">
-      <div class="img-center">
-    <img src="../assets/image/succes.png">
-  </div>
+    <div class="justify-content-center float-center">
+    <img src="../assets/image/succes.png" >
 </div>
 </div>
 </div>

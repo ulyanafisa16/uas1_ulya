@@ -65,6 +65,15 @@
             </div>
             <div class="form-grup">
               <div class="mt-1"></div>
+              <label for="alamat">No HandPhone : </label>
+              <input
+                type="Number"
+                class="form-control"
+                v-model="pesan.nomor"
+              />
+            </div>
+            <div class="form-grup">
+              <div class="mt-1"></div>
               <label for="alamat">Address : </label>
               <input
                 type="text"
