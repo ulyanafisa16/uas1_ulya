@@ -1,14 +1,14 @@
 <template>
   <div class="container">
-    <b-navbar toggleable="lg" >
+    <b-navbar toggleable="lg">
       <b-navbar-brand href="#" class="logo">Originote</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <li class="nav">
-            <router-link class="nav-link"  to="/">Home</router-link>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/about">About</router-link>
@@ -39,12 +39,42 @@
 </template>
 
 <script>
+import ScrollReveal from 'scrollreveal';
+
 export default {
   name: "NavbarView",
+
+  mounted() {
+    const scrollReveal = new ScrollReveal({
+
+    reset: false,
+    distance:'80px',
+    duration: 2000 ,
+    delay: 200,
+});
+
+scrollReveal.reveal('.nav-item, .home', {
+      duration: 1000,
+      delay: 200,
+      distance: '200px',
+      origin: 'left',
+      easing: 'ease-out',
+    });
+    scrollReveal.reveal('.hero, .card, .footer', {
+      duration: 1000,
+      delay: 200,
+      distance: '200px',
+      origin: 'left',
+      easing: 'ease-out',
+    });
+    ScrollReveal().reveal('.container', { interval: 16, reset: false });
+    
+  },
 };
 </script>
 
 <style>
-
-
+.nav-item{
+  color: rgb(160, 96, 96);
+}
 </style>

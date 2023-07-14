@@ -162,15 +162,13 @@
   font-size: 60px;
   color: #955e5e;
 }
-.banner .gambar img{
-  width: 40%;
-  height: 50vh;
-  background-color: #cd8464;
-  background-size: cover;
-  background-position: 60%;
+.toko{
+  background-color: #955e5e;
+  color: #ffffff;
+  border: none;
+  background-size: 30px;
   border-radius: 10px;
-  position: fixed;
-  margin-top: 100px;
 }
+
 
   
