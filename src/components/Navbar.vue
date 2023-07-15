@@ -1,20 +1,21 @@
 <template>
   <div class="container">
     <b-navbar toggleable="lg">
-      <b-navbar-brand href="#" class="logo">Originote</b-navbar-brand>
-
+      <div class="logo">
+      <a href="#">Originote</a>
+    </div>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Home</router-link>
+            <router-link class="nav" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">About</router-link>
+            <router-link class="nav" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/keranjang">Product</router-link>
+            <router-link class="nav" to="/keranjang">Product</router-link>
           </li>
         </b-navbar-nav>
 
@@ -27,7 +28,7 @@
             <b-dropdown-item href="#">Sign Out</b-dropdown-item>
           </b-nav-item-dropdown>
           <li class="nav-item">
-            <router-link class="nav-link" to="/troli">
+            <router-link class="nav" to="/troli">
               <b-icon-bag-fill></b-icon-bag-fill>
               <span class="badge badge-success ml-2"></span>
             </router-link>

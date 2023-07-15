@@ -32,15 +32,15 @@
     class="mt-4"
   >
     <b-carousel-slide
-      caption="First Slide"
+      caption=""
       img-src="../assets/image/gambar16.jpg" 
     ></b-carousel-slide>
     <b-carousel-slide
-      caption="Second Slide"
+      caption=""
       img-src="../assets/image/gambar4.jpg"
     ></b-carousel-slide>
     <b-carousel-slide
-      caption="Third Slide"
+      caption=""
       img-src="../assets/image/gambar17.jpg"
     ></b-carousel-slide>
   </b-carousel>

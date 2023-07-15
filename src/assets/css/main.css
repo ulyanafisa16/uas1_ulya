@@ -10,11 +10,23 @@
 }
 
 
-.logo{
-   font-size: 2.3rem;
+.logo a{
+    font-size: 2.3rem;
+    margin-right: 3rem;
     color:#955e5e;
     font-weight: 400;
     cursor: default;
+    text-decoration: none;
+}
+.nav-item .nav{
+  color: #955e5e;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 1rem;
+  transition: .3s;
+}
+.nav-item .nav:hover{
+  color: #457c8e;
 }
 
 .btn-success {
@@ -77,19 +89,8 @@
     max-width: 100%;
     height: auto;
   }
-  .video-wrapper {
-    position: relative;
-    padding-bottom: 100.90%; /* Adjust this value to match the aspect ratio of your video (e.g., for 16:9, use 56.25%) */
-    padding: 60% 40%;
-  }
   
-  .video-wrapper video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+  
   .nama {
     height: 100%;
     width: 80%;
@@ -170,5 +171,21 @@
   border-radius: 10px;
 }
 
-
+.market a{
+  font-size: 30px;
+  color: #cd8464;
+  text-decoration: none;
+  text-align: center;
+}
+.market a:hover{
+  color: #955e5e;
+}
+.card{
+  transition: .5s ease;
+  background-color: #DDA288;
+}
+.card:hover{
+  border-color: #955e5e ;
+  transform: scale(1.02);
+}
   

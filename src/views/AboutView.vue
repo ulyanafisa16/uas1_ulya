@@ -63,9 +63,10 @@
     <b-col cols="8"><h2><strong>You can Get It</strong></h2></b-col>
     <b-col></b-col>
   </b-row>
+  <div class="market">
   <div class="mt-5"></div>
   <b-container class="bv-example-row">
-  <b-row cols="1" cols-sm="2" cols-md="4" cols-lg="6" text="center" size="50px">
+  <b-row cols="1" cols-sm="2" cols-md="4" cols-lg="6">
     <b-col><a href="https://shopee.co.id/theoriginoteofficial">Shopee</a></b-col>
     <b-col><a href="https://www.tokopedia.com/theoriginote">Tokopedia</a></b-col>
     <b-col><a href="https://www.lazada.co.id/shop/the-originote/?path=index.htm&spm=a2o4j.searchlist.card.1.604e36f9rRszpw&from=onesearch_brand_124490681">Lazada</a></b-col>
@@ -74,6 +75,7 @@
     <b-col><a href="https://www.sociolla.com/15608_the-originote">Sociolla</a></b-col>
 </b-row>
 </b-container>
+</div>
 </b-container>
 
       <div class="mt-5">
