@@ -38,7 +38,7 @@
   color:#ffffff;
 }
 .btn-primary{
-  background-color: rgb(101, 161, 207);
+  background-color:#A0C3D2;
   border: none;
 }
 .btn-primary:hover{
@@ -105,7 +105,7 @@
   }
 
   .mr-3{
-  background-color: rgb(101, 161, 207); /* Warna latar belakang */
+  background-color: #A0C3D2; /* Warna latar belakang */
   color: #ffffff;
   border: none;
   
@@ -172,7 +172,8 @@
 }
 
 .market a{
-  font-size: 30px;
+  margin-right: 3rem;
+  font-size: 25px;
   color: #cd8464;
   text-decoration: none;
   text-align: center;
@@ -183,10 +184,15 @@
 }
 .card{
   transition: .5s ease;
-  background-color: #DDA288;
+  
 }
 .card:hover{
   border-color: #955e5e ;
   transform: scale(1.02);
+}
+
+.Circle image{
+  border-radius: 50%;
+  width: 20px;
 }
   

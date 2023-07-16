@@ -105,6 +105,30 @@
         </div>
       </b-container>
 
+
+      <div class="mt-4">
+  <b-card
+    overlay
+    img-src=""
+    background-color ="black"
+    img-alt="Card Image"
+    text-variant="white"
+    title="Image Overlay"
+    sub-title=""
+  >
+    <b-card-text>
+      Some quick example text to build on the card and make up the bulk of the card's content.
+    </b-card-text>
+  </b-card>
+</div>
+
+<div class="mt-5">
+<div class="card">
+  <b-img src="../assets/image/gambar10.jpg" rounded="circle" class="Circle image"></b-img>
+      <h2>The originote</h2>
+</div>
+</div>
+
       <div class="mt-5">
         <div class="row">
           <div class="col-md-6">
@@ -133,6 +157,7 @@ export default {
   data() {
     return {
       value: 3,
+      mainProps: { blank: true, blankColor: '#777', width: 75, height: 75, class: 'm1' }
     };
   },
 };
