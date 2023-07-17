@@ -18,10 +18,11 @@
 <hr>
 <div class="text-center">
   <h3>Thank you</h3>
-  <h2>Semoga Senang Untuk Belanja Lagi</h2>
+  <h2>Hope it's nice to shop again</h2>
 </div>
 <div class="mt-4">
   <div class="align-item-center">
+    <div class="text-center"></div>
     <div class="justify-content-center float-center">
     <img src="../assets/image/succes.png" >
 </div>

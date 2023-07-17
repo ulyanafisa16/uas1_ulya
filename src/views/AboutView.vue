@@ -124,7 +124,9 @@
 
 <div class="mt-5">
 <div class="card">
-  <b-img src="../assets/image/gambar10.jpg" rounded="circle" class="Circle image"></b-img>
+  <div class="row"></div>
+  <div class="col-4"></div>
+  <b-img src="../assets/image/rat1.jpg" rounded="circle" class="Circle image"></b-img>
       <h2>The originote</h2>
 </div>
 </div>
