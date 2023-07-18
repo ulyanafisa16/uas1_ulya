@@ -106,9 +106,9 @@
       </b-container>
 
 
-      <div class="mt-4">
+    <div class="mt-4">
   <b-card
-    overlay
+  overlay
     img-src=""
     background-color ="black"
     img-alt="Card Image"
@@ -116,20 +116,31 @@
     title="Image Overlay"
     sub-title=""
   >
-    <b-card-text>
-      Some quick example text to build on the card and make up the bulk of the card's content.
-    </b-card-text>
   </b-card>
 </div>
 
-<div class="mt-5">
-<div class="card">
-  <div class="row"></div>
-  <div class="col-4"></div>
-  <b-img src="../assets/image/rat1.jpg" rounded="circle" class="Circle image"></b-img>
-      <h2>The originote</h2>
+  <div class="mt-5">
+    <div class="mb-2">
+      
+    <b-row>
+   <b-col class="card" col="4">
+    <b-avatar src="../assets/image/gamabr11.jpg" size="6rem"></b-avatar>
+
+  </b-col>
+  <b-col class="card" col="4">
+    <b-avatar src="../assets/image/gamabr11.jpg" size="6rem"></b-avatar>
+  </b-col>
+  <b-col class="card" col="4">
+    <b-avatar src="../assets/image/gamabr11.jpg" size="6rem"></b-avatar>
+  </b-col>
+  </b-row>  
+  
 </div>
 </div>
+
+
+
+
 
       <div class="mt-5">
         <div class="row">

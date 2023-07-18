@@ -38,7 +38,7 @@
   color:#ffffff;
 }
 .btn-primary{
-  background-color:#A0C3D2;
+  background-color:#74c2e3;
   border: none;
 }
 .btn-primary:hover{
@@ -105,7 +105,7 @@
   }
 
   .mr-3{
-  background-color: #A0C3D2; /* Warna latar belakang */
+  background-color: #73c6ea; /* Warna latar belakang */
   color: #ffffff;
   border: none;
   
@@ -146,6 +146,7 @@
 .daftar{
   color: #955e5e;
   animation: ease-in-out;
+  font-size: 40px;
 }
 .skin{
   color: #955e5e;
@@ -182,17 +183,16 @@
   color: #955e5e;
   transform: scale(1.02);
 }
-.card{
+.product{
   transition: .5s ease;
   background-color: #FAAB78;
 }
-.card:hover{
+.product:hover{
   border-color: #955e5e ;
   transform: scale(1.02);
 }
 
-.Circle image{
-  height: 100%;
-  width: 100%;
+
+.text {
+  margin-left: 10px; /* Atur jarak antara gambar dan teks */
 }
-  

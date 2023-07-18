@@ -1,4 +1,5 @@
 <template>
+  <div class="product">
   <div class="card">
     <img :src=" '/assets/image/' + product.gambar[0]" class="card-img-top" alt="..." />
     <div class="card-body">
@@ -7,6 +8,7 @@
       <router-link class="btn btn-primary" :to="'/keranjang/' + product.id">View More...</router-link>
     </div>
     </div>
+  </div>
 </template>
 
 <script>

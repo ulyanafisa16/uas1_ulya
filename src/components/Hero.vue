@@ -20,9 +20,11 @@
       <!-- <div class="col-md-6">
         <img src="../assets/image/gambar13.jpg" width="80%" />
       </div> -->
+
 <div class="shadow p-3 mb-5 bg-body rounded  col-6">
-<div >
+<div>
       <b-carousel
+    
     id="carousel-fade"
     style="text-shadow: 0px 0px 2px #000"
     fade
@@ -36,7 +38,7 @@
       img-src="../assets/image/gambar16.jpg" 
     ></b-carousel-slide>
     <b-carousel-slide
-      caption=""
+       caption=""
       img-src="../assets/image/gambar4.jpg"
     ></b-carousel-slide>
     <b-carousel-slide

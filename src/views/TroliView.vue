@@ -65,7 +65,7 @@
             </div>
             <div class="form-grup">
               <div class="mt-1"></div>
-              <label for="alamat">No HandPhone : </label>
+              <label for="phone">Phone : </label>
               <input
                 type="Number"
                 class="form-control"
@@ -80,6 +80,14 @@
                 class="form-control"
                 v-model="pesan.alamat"
               />
+            </div>
+            <div class="form-grup">
+              <div class="mt-1"></div>
+              <label for="pembayaran">Metode Pembayaran : </label>
+              <b-form-select
+                type="options"
+                class="form-select"
+                v-model="selected" :options="options"></b-form-select>
             </div>
 
             <div class="mt-4">
@@ -105,7 +113,24 @@ export default {
   data() {
     return {
       keranjangs: [],
-      pesan: {}
+      pesan: {},
+      selected: null,
+      options:[
+        {value: null, text: 'Pilih Metode Pembayaran.....' },
+        {value: "a", text: 'Bayar ditempat (COD)'},
+        {value: "a", text: 'Dana'},
+        {label:'Transfer Bank',
+        options: [
+        {value: "a", text: 'Bank BCA'},
+        {value: "a", text: 'Bank Mandiri'},
+        {value: "a", text: 'Bank BNI'},
+        {value: "a", text: 'BAnk BRI'},
+        {value: "a", text: 'Bank Syariah Indonesia'},
+        {value: "a", text: 'Bank Permata'},
+        ]
+      }
+        
+      ]
     };
   },
   methods: {
