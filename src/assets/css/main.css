@@ -13,24 +13,24 @@
 .logo a{
     font-size: 2.3rem;
     margin-right: 3rem;
-    color:#955e5e;
+    color:#E08282;
     font-weight: 400;
     cursor: default;
     text-decoration: none;
 }
 .nav-item .nav{
-  color: #955e5e;
+  color: #E08282;
   text-decoration: none;
   font-size: 20px;
   margin-right: 1rem;
   transition: .3s;
 }
 .nav-item .nav:hover{
-  color: #457c8e;
+  color: #DDA288;
 }
 
 .btn-success {
-    background-color: rgb(101, 161, 207);
+    background-color: #9DC7E2;
     border: none;
 }
 .btn-success:hover{
@@ -38,7 +38,7 @@
   color:#ffffff;
 }
 .btn-primary{
-  background-color:#74c2e3;
+  background-color:#E08282;
   border: none;
 }
 .btn-primary:hover{
@@ -105,7 +105,7 @@
   }
 
   .mr-3{
-  background-color: #73c6ea; /* Warna latar belakang */
+  background-color: #9DC7E2; /* Warna latar belakang */
   color: #ffffff;
   border: none;
   
@@ -139,17 +139,17 @@
 
 .social-media a:hover {
    background-color: #ffffff;
-   color:#cd8464; 
+   color:#F7838D; 
    box-shadow: 0 0 1rem var(--main-color);
 }
 
 .daftar{
-  color: #955e5e;
+  color:#E08282;
   animation: ease-in-out;
   font-size: 40px;
 }
 .skin{
-  color: #955e5e;
+  color: #E08282;
   font-size: 40px;
 }
 .label{
@@ -158,11 +158,11 @@
 }
 .brand{
   font-size: 60px;
-  color: rgb(101, 161, 207);
+  color: #E08282;
 }
-.depan{
+.the{
   font-size: 60px;
-  color: #955e5e;
+  color:  rgb(101, 161, 207);
 }
 .toko{
   background-color: #955e5e;
@@ -182,6 +182,9 @@
 .market a:hover{
   color: #955e5e;
   transform: scale(1.02);
+}
+.garis{
+  color: #955e5e;
 }
 .product{
   transition: .5s ease;

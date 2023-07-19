@@ -6,7 +6,7 @@
         <div class="col">
           <div class="mt-5 text-center">
             <hr />
-            <h1 class="depan">THE <span class="brand">ORIGINOTE</span></h1>
+            <h1 class="the">THE <span class="brand">ORIGINOTE</span></h1>
             <hr />
             <br />
             <div>
@@ -104,10 +104,10 @@
           </b-container>
         </div>
       </b-container>
-
       <div class="mt-4">
-        <hr />
+        <hr class="garis"/>
       </div>
+
       <br />
       <div>
         <h5>Rating</h5>
@@ -132,7 +132,7 @@
                 src="../assets/image/gambar14.jpg"
                 size="6rem"
               ></b-avatar>
-
+              <h2>Vania</h2>
               <div class="mt-3"></div>
               <b-form-rating
                 v-model="value"
@@ -145,6 +145,7 @@
                 src="../assets/image/gambar6.jpg"
                 size="6rem"
               ></b-avatar>
+              <h2>Vania</h2>
               <div class="mt-3"></div>
               <b-form-rating
                 v-model="value"
@@ -157,6 +158,7 @@
                 src="../assets/image/gamabr11.jpg"
                 size="6rem"
               ></b-avatar>
+              <h2>Vania</h2>
               <div class="mt-3"></div>
               <b-form-rating
                 v-model="value"
