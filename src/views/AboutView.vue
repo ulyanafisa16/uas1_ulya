@@ -21,9 +21,8 @@
               >
                 <template #header>The Originote</template>
                 <template #lead>
-                  This is a simple hero unit, a simple jumbotron-style component
-                  for calling extra attention to featured content or
-                  information.
+                  This is a simple Skincare, Quick Solution for Healthy Skin
+                  Suitable for all skin types of Indonesian women
                 </template>
                 <hr class="my-4" />
                 <p>
@@ -110,7 +109,7 @@
 
       <br />
       <div>
-        <h5>Rating</h5>
+        <h2>Rating</h2>
         <b-progress
           :value="75"
           variant="warning"
@@ -121,18 +120,25 @@
           variant="warning"
           class="w-50 mb-2"
         ></b-progress>
-        <b-progress :value="75" variant="warning" class="w-75"></b-progress>
+        <b-progress 
+        :value="75" 
+        variant="warning" 
+        class="w-75"
+        ></b-progress>
       </div>
 
       <div class="mt-5">
-        <div class="mb-2">
+        <div class="row mb-3"></div>
+        <div class="row mb-4">
+          <div class="col-md-4 mt-4"></div>
           <b-row>
-            <b-col class="card" mr="3">
+            <b-col class="card">
               <b-avatar
                 src="../assets/image/gambar14.jpg"
                 size="6rem"
               ></b-avatar>
-              <h2>Vania</h2>
+              <h3>Vania</h3>
+              <p>originote is the best solusi banget untuk kulit aku yang berjerwat, pokoknya kalian jangan ragu untuk membeli Originote, dijamin solusi untuk kulit kalianyang lagi bermasalah</p>
               <div class="mt-3"></div>
               <b-form-rating
                 v-model="value"
@@ -140,12 +146,13 @@
                 class="mb-2"
               ></b-form-rating>
             </b-col>
-            <b-col class="card" col="4">
+            <b-col class="card" >
               <b-avatar
                 src="../assets/image/gambar6.jpg"
                 size="6rem"
               ></b-avatar>
-              <h2>Vania</h2>
+              <h3>Vania</h3>
+              <p>Terimakasih originote, karena pake yang paket glowing kit muka aku menjadi cerah banget bahkan sampai temen-temen ku pada nyanya aku pake apa</p>
               <div class="mt-3"></div>
               <b-form-rating
                 v-model="value"
@@ -153,13 +160,15 @@
                 class="mb-2"
               ></b-form-rating>
             </b-col>
-            <b-col class="card" col="4">
+            <b-col class="card">
               <b-avatar
                 src="../assets/image/gamabr11.jpg"
                 size="6rem"
               ></b-avatar>
-              <h2>Vania</h2>
-              <div class="mt-3"></div>
+              <div class="mt-2"></div>
+              <h3>Vania</h3>
+              <p>Terimakasih originote, karena pake yang paket glowing kit muka aku menjadi cerah banget bahkan sampai temen-temen ku pada nyanya aku pake apa</p>
+              <div class="mt-2"></div>
               <b-form-rating
                 v-model="value"
                 variant="warning"

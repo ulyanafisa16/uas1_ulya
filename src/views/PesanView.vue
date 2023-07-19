@@ -38,7 +38,7 @@
             <h4>Price: Rp {{ product.harga }}</h4>
             <form class="mt-1" v-on:submit.prevent>
               <div class="form-grup">
-                <label for="jumlah_pesanan">Order Quantity</label>
+                <label for="jumlah_pesanan">Jumlah Pesanan</label>
                 <input
                   type="number"
                   class="form-control"
