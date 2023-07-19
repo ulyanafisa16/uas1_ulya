@@ -10,7 +10,7 @@
 
         <div class="col">
           <router-link to="/keranjang" class="btn btn-success float-right"
-            ><b-icon-eye></b-icon-eye>Lihat semua</router-link
+            ><b-icon-eye></b-icon-eye>  Lihat semua</router-link
           >
         </div>
       </div>

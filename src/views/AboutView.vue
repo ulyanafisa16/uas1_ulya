@@ -105,55 +105,66 @@
         </div>
       </b-container>
 
-
-    <div class="mt-4">
-  <b-card
-  overlay
-    img-src=""
-    background-color ="black"
-    img-alt="Card Image"
-    text-variant="white"
-    title="Image Overlay"
-    sub-title=""
-  >
-  </b-card>
-</div>
-
-  <div class="mt-5">
-    <div class="mb-2">
-      
-    <b-row>
-   <b-col class="card" col="4">
-    <b-avatar src="../assets/image/gamabr11.jpg" size="6rem"></b-avatar>
-
-  </b-col>
-  <b-col class="card" col="4">
-    <b-avatar src="../assets/image/gamabr11.jpg" size="6rem"></b-avatar>
-  </b-col>
-  <b-col class="card" col="4">
-    <b-avatar src="../assets/image/gamabr11.jpg" size="6rem"></b-avatar>
-  </b-col>
-  </b-row>  
-  
-</div>
-</div>
-
-
-
-
+      <div class="mt-4">
+        <hr />
+      </div>
+      <br />
+      <div>
+        <h5>Rating</h5>
+        <b-progress
+          :value="75"
+          variant="warning"
+          class="w-25 mb-2"
+        ></b-progress>
+        <b-progress
+          :value="50"
+          variant="warning"
+          class="w-50 mb-2"
+        ></b-progress>
+        <b-progress :value="75" variant="warning" class="w-75"></b-progress>
+      </div>
 
       <div class="mt-5">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="mt-5">
-              <div class="flex-1"></div>
-              <div class="nama">
-                <div class="card">
-                  <img src="../assets/image/brand.jpg" class="img-fluid" />
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="mb-2">
+          <b-row>
+            <b-col class="card" mr="3">
+              <b-avatar
+                src="../assets/image/gambar14.jpg"
+                size="6rem"
+              ></b-avatar>
+
+              <div class="mt-3"></div>
+              <b-form-rating
+                v-model="value"
+                variant="warning"
+                class="mb-2"
+              ></b-form-rating>
+            </b-col>
+            <b-col class="card" col="4">
+              <b-avatar
+                src="../assets/image/gambar6.jpg"
+                size="6rem"
+              ></b-avatar>
+              <div class="mt-3"></div>
+              <b-form-rating
+                v-model="value"
+                variant="warning"
+                class="mb-2"
+              ></b-form-rating>
+            </b-col>
+            <b-col class="card" col="4">
+              <b-avatar
+                src="../assets/image/gamabr11.jpg"
+                size="6rem"
+              ></b-avatar>
+              <div class="mt-3"></div>
+              <b-form-rating
+                v-model="value"
+                variant="warning"
+                class="mb-2"
+              ></b-form-rating>
+            </b-col>
+          </b-row>
         </div>
       </div>
     </div>
@@ -170,7 +181,13 @@ export default {
   data() {
     return {
       value: 3,
-      mainProps: { blank: true, blankColor: '#777', width: 75, height: 75, class: 'm1' }
+      mainProps: {
+        blank: true,
+        blankColor: "#777",
+        width: 75,
+        height: 75,
+        class: "m1",
+      },
     };
   },
 };
