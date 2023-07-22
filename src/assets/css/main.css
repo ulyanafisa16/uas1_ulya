@@ -199,3 +199,8 @@
 .text {
   margin-left: 10px; /* Atur jarak antara gambar dan teks */
 }
+.rating-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}

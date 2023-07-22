@@ -15,7 +15,7 @@
                 text-variant="white"
                 border-variant="light"
                 style="
-                  background-image: url('../assets/image/bg.png');
+                  background-image: url('../assets/image/bg.jpg');
                   background-size: cover;
                 "
               >
@@ -134,12 +134,13 @@
           <b-row>
             <b-col class="card">
               <b-avatar
-                src="../assets/image/gambar14.jpg"
+                src="../assets/image/rat1.jpg"
                 size="6rem"
               ></b-avatar>
+              <div class="mt-2"></div>
               <h3>Vania</h3>
-              <p>originote is the best solusi banget untuk kulit aku yang berjerwat, pokoknya kalian jangan ragu untuk membeli Originote, dijamin solusi untuk kulit kalianyang lagi bermasalah</p>
-              <div class="mt-3"></div>
+              <p>Terimakasih originote, karena pake yang paket glowing kit muka aku menjadi cerah banget padahal ini baru jar yang pertama, bahkan sampai temen-temen ku pada nyanya aku pake apa</p>
+              <div class="mt-2"></div>
               <b-form-rating
                 v-model="value"
                 variant="warning"
@@ -148,11 +149,11 @@
             </b-col>
             <b-col class="card" >
               <b-avatar
-                src="../assets/image/gambar6.jpg"
+                src="../assets/image/rat4.jpg"
                 size="6rem"
               ></b-avatar>
-              <h3>Vania</h3>
-              <p>Terimakasih originote, karena pake yang paket glowing kit muka aku menjadi cerah banget bahkan sampai temen-temen ku pada nyanya aku pake apa</p>
+              <h3>Teresa</h3>
+              <p>Terimakasih originote, karena dengan pake yang acne kit jerawat di muka aku jadi terhempas semua,untuk kalian yang sedang berjerawat aku saranin untuk ambil yang acne kit.</p>
               <div class="mt-3"></div>
               <b-form-rating
                 v-model="value"
@@ -162,12 +163,12 @@
             </b-col>
             <b-col class="card">
               <b-avatar
-                src="../assets/image/gamabr11.jpg"
+                src="../assets/image/rat3.jpg"
                 size="6rem"
               ></b-avatar>
               <div class="mt-2"></div>
-              <h3>Vania</h3>
-              <p>Terimakasih originote, karena pake yang paket glowing kit muka aku menjadi cerah banget bahkan sampai temen-temen ku pada nyanya aku pake apa</p>
+              <h3>Salmy</h3>
+              <p>Originote emang nggk pernah gagal kalau launching produk selalau ter the best, apalagi moisturizernya jangan tanyakan lagi, karena sangat mois banget dengan harga yang sangat afordable.</p>
               <div class="mt-2"></div>
               <b-form-rating
                 v-model="value"

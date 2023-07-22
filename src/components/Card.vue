@@ -6,6 +6,17 @@
       <h5 class="card-title">{{ product.nama }}</h5>
       <p class="card-text"> Price : Rp. {{ product.harga }}</p>
       <router-link class="btn btn-primary" :to="'/keranjang/' + product.id">View More...</router-link>
+      <div class="mt-2">
+
+        <div class="rating-container">
+  <b-form-rating
+    icon-empty="heart"
+    icon-half="heart-half"
+    icon-full="heart-fill"
+    variant="danger"
+  ></b-form-rating>
+</div>
+</div>
     </div>
     </div>
   </div>

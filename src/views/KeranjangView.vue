@@ -31,7 +31,7 @@
       <div>
   <b-button  variant="secondary" @click="searchByKategory('product')" class="mr-3">All Product</b-button>
   <b-button  @click="searchByCategory('Acne')" class="mr-3">Acne Series</b-button>
-  <b-button  @click="searchCategory('Glow')" class="mr-3">Glowing Kit</b-button>
+  <b-button  @click="searchCategory('Glow')" class="mr-3">🔥 Hot Sale 🔥</b-button>
   <b-button  @click="searchCategori('Bundle')"  class="mr-3">Bundle Kit</b-button>
 </div>
       <div class="row mb-4">
