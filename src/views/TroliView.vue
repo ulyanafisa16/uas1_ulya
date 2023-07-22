@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col">
         <div class="align-item-center text-center">
-          <h2>Troli</h2>
+          <h2><strong class="tro">Troli</strong></h2>
         </div>
         <div class="table-responsiv mt-6 text-center">
           <div class="table">
@@ -53,6 +53,16 @@
     </div>
 
     <div class="row justify-content-end">
+      <b-col>
+        <div class="social-media2" >
+                    <h2>Contact Us</h2>
+                    <div class="mt-0"></div>
+                    <a href="https://wa.me/6287713108921"><b-icon-whatsapp></b-icon-whatsapp></a>
+                    <a href="https://instagram.com/theoriginote"><b-icon-instagram></b-icon-instagram></a>
+                    <a href="https://twitter.com/theoriginote"><b-icon-twitter></b-icon-twitter></a>
+                    <a href="https://facebook.com/theoriginote"><b-icon-facebook></b-icon-facebook></a>
+                 </div>
+      </b-col>
         <div class="col-md-6">
             <form class="mt-1" v-on:submit.prevent>
             <div class="form-grup">

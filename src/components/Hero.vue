@@ -7,7 +7,11 @@
         <div class="d-flex h-100  align-self-right">
           <div class="justify-content-right align-self-center ">
             <h2>
-              <strong class="skin">Skincare Menu, </strong>
+              <strong class="skin"
+              style="
+                  background-image: url('../assets/image/brand.jpg');
+                  background-size: cover;
+                ">Skincare Menu, </strong>
               <h1>in your gadget</h1>
             </h2>
             <p>Ayo segera Pilih dan Check Out</p>

@@ -4,17 +4,17 @@
       <Navbar />
       <div class="mt-4">
         <div class="align-item-center text-center">
-          <h2>Succeed</h2>
+          <h1 class="suks">Succeed</h1>
         </div>
       </div>
       <hr />
       <div class="text-center">
-        <h3>Thank you</h3>
+        <h3 class="thank">Thank you</h3>
         <h2>Hope it's nice to shop again</h2>
       </div>
-      <div class="mt-4 center">
-            <img src="../assets/image/succes.png" />
-          </div>
+      <div class="mt-4">
+        <img src="../assets/image/order.png">
+      </div>
         </div>
       </div>
     

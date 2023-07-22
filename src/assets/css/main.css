@@ -207,3 +207,34 @@
 .star{
   color: #E08282;
 }
+
+.social-media2 a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: .2rem solid  rgb(86, 161, 218);
+  border-radius: 50%;
+  font-size: 2rem;
+  color:#9DC7E2;
+  margin: 3rem 1.5rem 3rem 0;
+  transition: .5s ease;
+}
+
+.social-media2 a:hover {
+ background-color: #ffffff;
+ color:rgb(101, 161, 207); 
+ box-shadow: 0 0 1rem var(--main-color);
+}
+.tro{
+  color: #9DC7E2;
+  font-size: 60px;
+}
+.suks{
+  color: rgb(86, 161, 218);
+}
+.thank{
+  color: #E08282;
+}
