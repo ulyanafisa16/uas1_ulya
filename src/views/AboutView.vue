@@ -11,11 +11,11 @@
             <br />
             <div>
               <b-jumbotron
-                bg-variant="info"
+                bg-variant="#9DC7E2"
                 text-variant="white"
                 border-variant="light"
                 style="
-                  background-image: url('../assets/image/bg.jpg');
+                  background-image: url('');
                   background-size: cover;
                 "
               >
@@ -110,6 +110,7 @@
       <br />
       <div>
         <h2>Rating</h2>
+        
         <b-progress
           :value="75"
           variant="warning"
@@ -168,7 +169,7 @@
               ></b-avatar>
               <div class="mt-2"></div>
               <h3>Salmy</h3>
-              <p>Originote emang nggk pernah gagal kalau launching produk selalau ter the best, apalagi moisturizernya jangan tanyakan lagi, karena sangat mois banget dengan harga yang sangat afordable.</p>
+              <p>Originote emang nggk pernah gagal kalau launching produk selalu ter the best, apalagi moisturizernya jangan tanyakan lagi, karena sangat mois banget dengan harga yang sangat afordable.</p>
               <div class="mt-2"></div>
               <b-form-rating
                 v-model="value"

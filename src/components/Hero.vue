@@ -70,8 +70,8 @@
               <h1>in your gadget</h1>
             </h2>
             <p>Ayo segera Pilih dan Check Out</p>
-            <router-link to="/" class="btn btn-lg btn-success"
-              ><b-icon-arrow-right></b-icon-arrow-right>Order</router-link
+            <router-link to="/keranjang" class="btn btn-lg btn-success"
+              ><b-icon-arrow-right></b-icon-arrow-right>  Eksplore</router-link
             >
           </div>
         </div>
