@@ -9,7 +9,7 @@
             <h2>
               <strong class="skin"
               style="
-                  background-image: url('../assets/image/brand.jpg');
+                  background-image: url('../assets/image/bg2.png');
                   background-size: cover;
                 ">Skincare Menu, </strong>
               <h1>in your gadget</h1>
