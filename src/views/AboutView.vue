@@ -15,7 +15,7 @@
                 text-variant="white"
                 border-variant="light"
                 style="
-                  background-image: url('');
+                  background-image: url('../assets/image/stone.jpg');
                   background-size: cover;
                 "
               >

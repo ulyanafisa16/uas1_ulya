@@ -66,8 +66,37 @@
                 <img
                   :src="'/assets/image/' + product.gambar[1]"
                   class="img-fluid"
-                />
+                />  
               </div>
+              <div class="mt-4">
+                  <h3>Penilaian produk</h3>
+                  <h4>4.9</h4> <b-icon-star-fill class="star"></b-icon-star-fill>  <b-icon-star-fill class="star"></b-icon-star-fill>  <b-icon-star-fill class="star"></b-icon-star-fill>  <b-icon-star-fill class="star"></b-icon-star-fill>  <b-icon-star-fill class="star"></b-icon-star-fill>
+                  <div class="mt-3">
+        <b-progress
+          :value="75"
+          variant="warning"
+          class="w-25 mb-2"
+        ></b-progress>
+        <b-progress
+          :value="50"
+          variant="warning"
+          class="w-50 mb-2"
+        ></b-progress>
+        <b-progress 
+        :value="75" 
+        variant="warning" 
+        class="w-75"
+        ></b-progress>
+      </div>
+
+      <div class="row mb-4">
+        <div class="row mb-5">
+    <div class="col-md-6 mt-4" v-for="product in products" :key="product.id">
+      <Card  :product="product"/>
+        </div>
+        </div>
+      </div>
+                </div>    
             </div>
           </div>
           <div class="cardket">
@@ -90,6 +119,30 @@
                   <br>
                   <h2>Ingredients</h2>
                   <p>{{ product.keterangan[4] }}</p>
+
+                  <div>
+              <b-jumbotron
+                bg-variant="#9DC7E2"
+                text-variant="white"
+                border-variant="light"
+                style="
+                  background-image: url('../assets/image/stone.jpg');
+                  background-size: cover;
+                "
+              >
+                <template #header>The Originote</template>
+                <template #lead>
+                  This is a simple Skincare, Quick Solution for Healthy Skin
+                  Suitable for all skin types of Indonesian women
+                </template>
+                <hr class="my-2" />
+                <router-link
+                  to="/keranjang"
+                  class="btn btn-success float-center"
+                  >Lihat semua</router-link
+                >
+              </b-jumbotron>
+            </div>
                 </div>
               </div>
             </div>
@@ -102,6 +155,7 @@
 
 <script>
 import Navbar from "@/components/Navbar.vue";
+import Card from "@/components/Card.vue";
 import VueCarousel from 'vue-carousel';
 import Bootstrap from "bootstrap-vue";
 
@@ -110,6 +164,7 @@ export default {
   name: "PesanView",
   components: {
     Navbar,
+    Card,
     VueCarousel
 
 },
@@ -117,6 +172,7 @@ export default {
     return {
       product: {},
       pesan: {},
+      products: []
     };
   },
   methods: {
@@ -133,6 +189,9 @@ export default {
         })
         .catch((err) => console.log(err));
     },
+    setProducts(data) {
+        this.products = data;
+      }
   },
 
   mounted() {
@@ -140,6 +199,11 @@ export default {
       .get("http://localhost:3000/products/" + this.$route.params.id)
       .then((response) => this.setProduct(response.data))
       .catch((error) => console.log(error));
+
+      axios
+        .get("http://localhost:3000/best")
+        .then((response) => this.setProducts(response.data))
+        .catch((error) => console.log(error))
   
  
     // Inisialisasi carousel Bootstrap setelah komponen dimuat
