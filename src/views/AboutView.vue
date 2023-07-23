@@ -26,8 +26,7 @@
                 </template>
                 <hr class="my-4" />
                 <p>
-                  It uses utility classes for typography and spacing to space
-                  content out within the larger container.
+                  Shine in every moment with The Originote. healthy and glowing skin.
                 </p>
                 <router-link
                   to="/keranjang"
@@ -104,13 +103,13 @@
         </div>
       </b-container>
       <div class="mt-4">
-        <hr class="garis"/>
+        <hr class="garis" />
       </div>
 
       <br />
       <div>
         <h2>Rating</h2>
-        
+
         <b-progress
           :value="75"
           variant="warning"
@@ -121,62 +120,84 @@
           variant="warning"
           class="w-50 mb-2"
         ></b-progress>
-        <b-progress 
-        :value="75" 
-        variant="warning" 
-        class="w-75"
-        ></b-progress>
+        <b-progress :value="75" variant="warning" class="w-75"></b-progress>
       </div>
 
       <div class="mt-5">
         <div class="row mb-3"></div>
         <div class="row mb-4">
-          <div class="col-md-4 mt-4"></div>
           <b-row>
-            <b-col class="card">
-              <b-avatar
-                src="../assets/image/rat1.jpg"
-                size="6rem"
-              ></b-avatar>
-              <div class="mt-2"></div>
-              <h3>Vania</h3>
-              <p>Terimakasih originote, karena pake yang paket glowing kit muka aku menjadi cerah banget padahal ini baru jar yang pertama, bahkan sampai temen-temen ku pada nyanya aku pake apa</p>
-              <div class="mt-2"></div>
-              <b-form-rating
-                v-model="value"
-                variant="warning"
-                class="mb-2"
-              ></b-form-rating>
-            </b-col>
-            <b-col class="card" >
-              <b-avatar
-                src="../assets/image/rat4.jpg"
-                size="6rem"
-              ></b-avatar>
-              <h3>Teresa</h3>
-              <p>Terimakasih originote, karena dengan pake yang acne kit jerawat di muka aku jadi terhempas semua,untuk kalian yang sedang berjerawat aku saranin untuk ambil yang acne kit.</p>
-              <div class="mt-3"></div>
-              <b-form-rating
-                v-model="value"
-                variant="warning"
-                class="mb-2"
-              ></b-form-rating>
-            </b-col>
-            <b-col class="card">
-              <b-avatar
-                src="../assets/image/rat3.jpg"
-                size="6rem"
-              ></b-avatar>
-              <div class="mt-2"></div>
-              <h3>Salmy</h3>
-              <p>Originote emang nggk pernah gagal kalau launching produk selalu ter the best, apalagi moisturizernya jangan tanyakan lagi, karena sangat mois banget dengan harga yang sangat afordable.</p>
-              <div class="mt-2"></div>
-              <b-form-rating
-                v-model="value"
-                variant="warning"
-                class="mb-2"
-              ></b-form-rating>
-            </b-col>
+            <div class="col-md-4 mt-4">
+              <div class="rating">
+                <b-col class="card">
+                  <b-avatar
+                    src="../assets/image/rat1.jpg"
+                    size="6rem"
+                  ></b-avatar>
+                  <div class="mt-2"></div>
+                  <h3>Vania</h3>
+                  <p>
+                    Terimakasih originote, karena pake yang paket glowing kit
+                    muka aku menjadi cerah banget padahal ini baru jar yang
+                    pertama, bahkan sampai temen-temen ku pada nyanya aku pake
+                    apa
+                  </p>
+                  <div class="mt-2"></div>
+                  <b-form-rating
+                    v-model="value"
+                    variant="warning"
+                    class="mb-2"
+                  ></b-form-rating>
+                </b-col>
+              </div>
+            </div>
+            <div class="col-md-4 mt-4">
+              <div class="rating">
+                <b-col class="card">
+                  <b-avatar
+                    src="../assets/image/rat4.jpg"
+                    size="6rem"
+                  ></b-avatar>
+                  <h3>Teresa</h3>
+                  <p>
+                    Terimakasih originote, karena dengan pake yang acne kit
+                    jerawat di muka aku jadi terhempas semua, untuk kalian yang
+                    sedang berjerawat aku saranin untuk ambil yang acne kit,
+                    Selamat Mencoba
+                  </p>
+                  <div class="mt-3"></div>
+                  <b-form-rating
+                    v-model="value"
+                    variant="warning"
+                    class="mb-2"
+                  ></b-form-rating>
+                </b-col>
+              </div>
+            </div>
+            <div class="col-md-4 mt-4">
+              <div class="rating">
+                <b-col class="card">
+                  <b-avatar
+                    src="../assets/image/rat3.jpg"
+                    size="6rem"
+                  ></b-avatar>
+                  <div class="mt-2"></div>
+                  <h3>Salmy</h3>
+                  <p>
+                    Originote emang nggk pernah gagal kalau launching produk
+                    selalu ter the best, apalagi moisturizernya jangan tanyakan
+                    lagi, karena sangat mois banget dengan harga yang sangat
+                    afordable.
+                  </p>
+                  <div class="mt-2"></div>
+                  <b-form-rating
+                    v-model="value"
+                    variant="warning"
+                    class="mb-2"
+                  ></b-form-rating>
+                </b-col>
+              </div>
+            </div>
           </b-row>
         </div>
       </div>

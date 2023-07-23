@@ -127,7 +127,7 @@
                 text-variant="white"
                 border-variant="light"
                 style="
-                  background-image: url('../assets/image/stone.jpg');
+                  background-image: url('../assets/image/daun.jpeg');
                   background-size: cover;
                 "
               >
