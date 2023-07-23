@@ -35,7 +35,8 @@
             <h2>{{ product.nama }}</h2>
             <hr />
             <div class="mt-5"></div>
-            <h4>Price: Rp {{ product.harga }}</h4>
+            <s>Rp.{{ product.harga[1] }}</s>
+            <h4 class="harga">Price: Rp. {{ product.harga[0] }}</h4>
             <form class="mt-1" v-on:submit.prevent>
               <div class="form-grup">
                 <label for="jumlah_pesanan">Jumlah Pesanan</label>

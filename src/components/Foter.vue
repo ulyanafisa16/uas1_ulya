@@ -22,6 +22,8 @@
                  <div class="col text-right">
                   <h4 class="origin">The Originote|Beauty Skin</h4>
                   <p>Kulit Cerah, Sehat dengan Originote</p>
+                  <p>Brand Pilihan</p>
+                  <p>BPOM <b-icon-check2-circle></b-icon-check2-circle></p>
                  </div>
                 </b-col>
         </div>

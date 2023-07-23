@@ -32,9 +32,9 @@
                 </td>
                 <td>{{ keranjang.products.nama }}</td>
                 <td>{{ keranjang.jumlah_pesanan }}</td>
-                <td>Rp. {{ keranjang.products.harga }}</td>
+                <td>Rp. {{ keranjang.products.harga[0] }}</td>
                 <td>
-                  Rp. {{ keranjang.products.harga * keranjang.jumlah_pesanan }}
+                  <strong>Rp. {{ keranjang.products.harga[0] * keranjang.jumlah_pesanan }}</strong>
                 </td>
                 <td><b-icon-trash @click="hapusKeranjang(keranjang.id)"></b-icon-trash></td>
               </tr>
@@ -134,7 +134,7 @@ export default {
         {value: "a", text: 'Bank BCA'},
         {value: "a", text: 'Bank Mandiri'},
         {value: "a", text: 'Bank BNI'},
-        {value: "a", text: 'BAnk BRI'},
+        {value: "a", text: 'Bank BRI'},
         {value: "a", text: 'Bank Syariah Indonesia'},
         {value: "a", text: 'Bank Permata'},
         ]
@@ -188,7 +188,7 @@ export default {
   computed: {
     totalHarga() {
       return this.keranjangs.reduce(function (items, data) {
-        return items + data.products.harga * data.jumlah_pesanan;
+        return items + data.products.harga[0] * data.jumlah_pesanan;
       }, 0);
     },
   },
